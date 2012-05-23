@@ -1,0 +1,16 @@
+name = HumanitarianResponse Clusters Menu
+description = Menus for clusters
+core = 7.x
+package = Humanitarianresponse
+php = 5.2.4
+dependencies[] = features
+dependencies[] = humanitarianresponse_clusters
+dependencies[] = menu
+dependencies[] = strongarm
+dependencies[] = taxonomy_menu
+dependencies[] = uuid
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[menu_custom][] = menu-cluster
+features[variable][] = taxonomy_menu_vocab_menu_clusters
+features[variable][] = taxonomy_menu_vocab_parent_uuid_clusters

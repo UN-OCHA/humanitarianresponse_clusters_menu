@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the HumanitarianResponse Clusters Menu feature.
+ */
+
+include_once 'humanitarianresponse_clusters_menu.features.inc';
