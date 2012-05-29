@@ -13,7 +13,7 @@ function humanitarianresponse_clusters_menu_menu_default_menu_custom() {
   // Exported menu: menu-cluster
   $menus['menu-cluster'] = array(
     'menu_name' => 'menu-cluster',
-    'title' => 'Cluster',
+    'title' => 'Cluster Info',
     'description' => 'Quick Access Links for a cluster',
   );
   // Translatables
