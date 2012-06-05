@@ -20,9 +20,9 @@ function humanitarianresponse_clusters_menu_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'taxonomy_menu_vocab_parent_uuid_clusters';
-  $strongarm->value = 'clusters';
-  $export['taxonomy_menu_vocab_parent_uuid_clusters'] = $strongarm;
+  $strongarm->name = 'taxonomy_menu_vocab_parent_clusters';
+  $strongarm->value = 'main-menu:clusters';
+  $export['taxonomy_menu_vocab_parent_clusters'] = $strongarm;
 
   return $export;
 }

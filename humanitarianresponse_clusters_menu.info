@@ -13,4 +13,4 @@ features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:1
 features[menu_custom][] = menu-cluster
 features[variable][] = taxonomy_menu_vocab_menu_clusters
-features[variable][] = taxonomy_menu_vocab_parent_uuid_clusters
+features[variable][] = taxonomy_menu_vocab_parent_clusters
