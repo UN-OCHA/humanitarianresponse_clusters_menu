@@ -14,3 +14,6 @@ features[features_api][] = api:1
 features[menu_custom][] = menu-cluster
 features[variable][] = taxonomy_menu_vocab_menu_clusters
 features[variable][] = taxonomy_menu_vocab_parent_clusters
+l10n path = http://localize.humanitarianresponse.info/sites/localize.humanitarianresponse.info/files/l10n_packager/%core/%project/%project-%release.%language.po
+l10n server = localize.humanitarianresponse.info
+l10n url = http://localize.humanitarianresponse.info/sites/localize.humanitarianresponse.info/files/l10n_packager/l10n_server.xml
