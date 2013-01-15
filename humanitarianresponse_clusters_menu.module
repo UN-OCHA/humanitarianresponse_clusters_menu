@@ -14,8 +14,6 @@ function humanitarianresponse_clusters_menu_feeds_after_import(FeedsSource $sour
     // Rebuild taxonomy menu
     $voc = taxonomy_vocabulary_machine_name_load('clusters');
     $vid = $voc->vid;
-    debug('before menu rebuild');
     humanitarianresponse_core_taxonomy_menu_rebuild($vid);
-    debug('after menu rebuild');
   }
 }
