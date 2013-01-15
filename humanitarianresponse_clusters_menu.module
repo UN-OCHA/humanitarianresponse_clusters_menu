@@ -11,10 +11,10 @@ include_once 'humanitarianresponse_clusters_menu.features.inc';
  */
 function humanitarianresponse_clusters_menu_feeds_after_import(FeedsSource $source) {
   watchdog('humanitarianresponse_clusters_menu', var_export($source, TRUE));
-  /*if ($source->id == 'csv_clusters') {
+  if ($source->id == 'csv_clusters') {
     // Rebuild taxonomy menu
     $voc = taxonomy_vocabulary_machine_name_load('clusters');
     $vid = $voc->vid;
     _taxonomy_menu_rebuild($vid);
-  }*/
+  }
 }
